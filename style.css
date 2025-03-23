@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "El Messiri", sans-serif;
+}
+html, body{
+    background-color: #003247;
+}
+header{
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+}
+header nav{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav, .header__menu{
+    display: flex;
+    
+}
+.header__nav{
+    width: 100%;
+    justify-content: space-between;
+}
+.header__menu{
+    list-style-type: none;
+    width: 85%;
+    justify-content: center;
+}
+.header__menu li{
+    padding: 20px;
+}
+.header__menu li a, .button__header__cart a{ 
+    color: white;
+    text-decoration: none;
+}
+.button__header__cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    
+}
+.button__header__cart a{
+    padding: 10px;
+    background-color: #018ABE;
+    border-radius: 10px;
+}
+
+/*Article_2*/
+.main__first{
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main__section{
+    height: 70%;
+    width: 80%;
+    margin: 10px auto;
+    background-image: url("../images/title_img.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main__section h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.main__section h1{
+    font-size: 64px;
+    font-weight: bold;
+    width: 587px;
+    height: 180px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* ///////////////////////////////// */
+
+.section_seanse{
+    width: 80%;
+    display: grid;
+    height: 100vh;
+    margin: 10px auto;
+    grid-template-rows: 15% 85%;
+}
+.section_seanse h4{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.section_seanse .glob{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.section_seanse .dolb{
+    margin: 24px;
+    background-image: url(/images/water_img.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.glob .div_1{
+    grid-row: 1 / 3;
+}
+.section_seanse .dolb h1{
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+/* /////////////////////////////// */
+.main_third{
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    display: grid;
+
+}
+.main_third h4{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: start;
+    text-align: center;
+    color: white;
+}
+.main_third .otziv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+.main_third .otziv .side_1{
+    border-radius: 10px;
+    background-color: #018ABE;
+    opacity: 40%;
+    padding: 50px;
+}
+.main_third .otziv .glavniy{
+    border-radius: 10px;
+    background-color: #018ABE;
+    opacity: 100%;
+    padding: 50px;
+}
+.main_third .otziv .side_2{
+    border-radius: 10px;
+    background-color: #018ABE;
+    opacity: 40%;
+    padding: 50px;
+}
+.main_third .tochki{
+    margin-top: 15px;
+}
+.main_third .tochki .f{
+    height: 10px;
+    width: 10px;
+    background-color: gray;
+    border-radius: 5%;
+    display: inline-block;
+    margin: 0 5px;
+}
+.main_third .tochki .j{
+    background-color: rgb(255, 255, 255);
+}
